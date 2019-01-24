@@ -44,7 +44,7 @@ def writehtml(filename,title):
 		#the images must be png or jpeg or any format readeable in a web page
 		f.write(' <div class="responsive">' + '\n')
 		f.write(' <div class="gallery">' + '\n')
-		f.write(' <a target="_blank" href="'+image+'">' + '\n')
+		f.write(' <a target="_blank" href="./galaxyset/'+image+'">' + '\n')
 		f.write('<img src= "./galaxyset/'+image+'" height="100 width="100"" > '+'\n')
 		f.write(' </a>' + '\n')
 		f.write(' </div>' + '\n')
